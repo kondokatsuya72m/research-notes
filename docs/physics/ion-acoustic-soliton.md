@@ -54,7 +54,7 @@ $$
 \frac{\partial^2 \tilde{\phi}}{\partial \tilde{x}^2} = \tilde{n}_e-\tilde{n} \tag{4}
 $$
 
-ここで分布関数に$f(x,t)=f_0 + \epsilon f_1 + \epsilon^2 f_2 \cdots$ なる摂動展開を行います。$f_0$平衡状態でのMaxwell分布を表します。すると各物理量は摂動項に対応して
+ここで分布関数に$f(x,t)=f_0 + \epsilon f_1 + \epsilon^2 f_2 \cdots$ なる摂動展開を行います。$f_0$は平衡状態でのMaxwell分布を表します。すると各物理量は摂動項に対応して
 
 $$
 \tilde{n} = 1 + \epsilon \tilde{n}_1+ \epsilon^2 \tilde{n}_2 + \cdots
