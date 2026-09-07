@@ -28,6 +28,14 @@ myst_enable_extensions = [
     "amsmath"
 ]
 
+mathjax3_config={
+    "tex":{
+        "packages":{
+            "[+]": ["bm"],
+        }
+    }
+}
+
 language = 'jp'
 
 # -- Options for HTML output -------------------------------------------------
