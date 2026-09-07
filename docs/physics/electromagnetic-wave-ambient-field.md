@@ -243,8 +243,7 @@ $\omega_{ce} = 2.5$と設定しており、$\omega_L= 3.61$, $\omega_R= 1.11$, $
 
 0から電磁波の振動数をあげていきましょう。まず$\omega$の小さな領域（$\omega < \omega_L$）では伝播することができずカットオフされます。$\omega = \omega_L$で最初のゼロ点を迎えると、それ以降は伝播する。 $\omega_L < \omega < \omega_{eH}$で$\omega_{eH}$に近づくにつれて曲線は$k\to+\infty$に漸近しており、これは**共鳴**（**resonance**）を意味する。それを超えると再びカットオフ領域$\omega_{eH} < \omega < \omega_{R}$に入ります。 $\omega_R < \omega$に入ると再び伝播可能となります。
 
-
-<!-- ## (3) $\bm{B}_0 \parallel \bm{k}$ : 背景磁場に沿って伝播する電磁波
+## (3) $\bm{B}_0 \parallel \bm{k}$ : 背景磁場に沿って伝播する電磁波
 
 最後に電磁波の伝播方向が背景磁場と平行でz方向の場合を考える。
 
@@ -335,8 +334,8 @@ $$
 0 = \left(
     \frac{c\omega m_e}{4\pi n_0 e}
     \left(
-        \frac{\omega}{c}-\frac{ck^2}{\omega} +e
-    \right)
+        \frac{ck^2}{\omega}-\frac{\omega}{c} 
+    \right)+e
 \right)E_x
 -\frac{eB_0}{c}\frac{c}{4\pi n_0 e}\left(
     \frac{i\omega}{c}-\frac{ick^2}{\omega}
@@ -350,16 +349,74 @@ $$
 +\left(
     \frac{c\omega m_e}{4\pi n_0 e}
     \left(
-        \frac{\omega}{c}-\frac{ck^2}{\omega} +e
-    \right)
+        \frac{ck^2}{\omega}-\frac{\omega}{c} 
+    \right) +e
 \right)E_y
  \tag{4.17}
 $$
 
-となる。(4.16),(4.17)が非自明解を持つためには係数行列が0でなければならないので
+となる。(4.16),(4.17)が非自明解を持つためには係数行列が0でなければならないので、その行列式を計算します。すると
 
-（工事中）
- -->
+$$
+\left( \frac{c\omega m_e}{4\pi n_0 e} \right)^2
+\left( \frac{ck^2}{\omega}-\frac{\omega}{c}+e\right)^2
++\left(\frac{eB_0}{4\pi n_0 e}\right)^2
+\left(\frac{i\omega}{c}-\frac{ick^2}{\omega}\right)^2 = 0
+$$
+
+となります。丁寧に一つずつ整理していきましょう。係数を中に入れて、符号や$i$を整理し、(3.12)、(3.13)を使って$\omega_{pe}$と$\omega_{ce}$で表すと、
+
+$$
+\left(
+    \frac{c^2k^2}{\omega_{pe}^2}-\frac{\omega^2}
+{\omega_{pe}^2}+1
+\right)^2 
+= \frac{\omega_{ce}^2}{\omega_{pe}^4} \left(
+    \omega -\frac{c^2k^2}{\omega}
+\right)^2
+$$
+
+を得ます。これをXモードのときのように変形することを考えましょう。まず2乗を払って
+
+$$
+\frac{c^2k^2}{\omega_{pe}^2}-\frac{\omega^2}{\omega_{pe}^2}+1
+= \pm \frac{\omega_{ce}}{\omega_{pe}^2} \left(
+    \omega -\frac{c^2k^2}{\omega}
+\right)
+$$
+
+となります。左辺を整理すると
+
+$$
+\frac{\omega}{\omega_{pe}^2}\left(    
+    \omega -\frac{c^2k^2}{\omega}
+\right)+1
+= \pm \frac{\omega_{ce}}{\omega_{pe}^2} \left(
+    \omega -\frac{c^2k^2}{\omega}
+\right)
+$$
+
+とできるので、移項して
+
+$$
+1=
+\left(
+    \frac{\omega}{\omega_{pe}^2}\pm \frac{\omega_{ce}}{\omega_{pe}^2}
+    \right)\left(    
+    \omega -\frac{c^2k^2}{\omega}
+\right)
+$$
+
+となり、最終的に下記の分散関係式
+
+$$
+\frac{c^2k^2}{\omega^2} = 1-\frac{\omega_{ce}^2/\omega^2}{1\pm \omega_{ce}/\omega}
+$$
+
+を得ます。
+
+
+
 ## 参考文献
 * 7.11 Electromagnetic waves in magnetized plasmas. Introduction to plasma theory. D. R. Nicholson. Wiley. 1983.
 * 4.15 Electromagnetic Waves Perpendicular to $B_0$. Introduction to Plasma Physics. F. F. Chen. Springer. 1974. https://doi.org/10.1007/978-1-4757-0459-4
