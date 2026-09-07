@@ -245,11 +245,11 @@ $\omega_{ce} = 2.5$と設定しており、$\omega_L= 3.61$, $\omega_R= 1.11$, $
 
 ## (3) $\bm{B}_0 \parallel \bm{k}$ : 背景磁場に沿って伝播する電磁波
 
-最後に電磁波の伝播方向が背景磁場と平行でz方向の場合を考える。
+最後に電磁波の伝播方向が背景磁場と平行でz方向の場合を考えましょう。
 
-この場合、電場によるy方向の振動によってローレンツ力はz方向に生じる。したがって電子はx-y平面上で運動することが予想される。
+この場合、電場による$y$方向の振動によってローレンツ力は$z$方向に生じます。したがって電子は$x-y$平面上で運動することが予想されます。
 
-まず電場はOモード同様に電子が運動することによってx,y方向の2つの成分を持つ。磁場は伝播方向と垂直な面にのみ生じるが、Xモードの場合はx,yの運動によって生じる磁場はz方向しか存在しえないので、結果1成分のみとなる。一方で平行伝播の場合は伝播方向に垂直な面では磁場もx,yの2つの成分を考える必要がある。
+まず電場はOモード同様に電子が運動することによって$x,y$方向の2つの成分を持ちます。磁場は伝播方向と垂直な面にのみ生じますが、Xモードの場合は$x,y$の運動によって生じる磁場は$z$方向しか存在しえないので、結果1成分のみとなったのでした。一方で平行伝播の場合は伝播方向に垂直な面では磁場も$x,y$の2つの成分を考える必要があります。
 
 基礎方程式であるアンペール則、ファラデー則、電子の運動方程式を書き下すと
 
@@ -265,7 +265,7 @@ $$
 -i\omega m_e \bm{v} = -e\bm{E}_1 -\frac{e}{c}\bm{{v}}\times\bm{B}_0 \tag{4.3}
 $$
 
-となる。仮定から
+となります。仮定から
 
 $$
     \bm{k} = (0,0,k) \tag{4.4}
@@ -288,7 +288,7 @@ $$
     \bm{v} = (v_x, v_y, 0) \tag{4.8}
 $$
 
-となるから、(4.1)-(4.3)の各x,y成分を見ると
+となるので、(4.1)-(4.3)の各$x,y$成分を見ると
 
 $$
 -ikE_y = \frac{i\omega}{c}B_x \tag{4.9}
@@ -314,7 +314,7 @@ $$
 -i\omega m_e v_y = -eE_y +\frac{e}{c}v_x B_0 \tag{4.14}
 $$
 
-となる。まず(4.11),(4.12)に(4.9),(4.10)を代入して$B_x,B_y$を消去すると、
+となります。まず(4.11),(4.12)に(4.9),(4.10)を代入して$B_x,B_y$を消去すると、
 
 $$
 v_x = -\frac{c}{4\pi n_0 e}\left(
@@ -325,10 +325,10 @@ $$
 $$
 v_y = -\frac{c}{4\pi n_0 e}\left(
     \frac{i\omega}{c}-i\frac{ck^2}{\omega}
-\right)E_y \tag{4.15}
+\right)E_y \tag{4.16}
 $$
 
-となる。これを(4.13), (4.14)に代入して連立させると
+となります。これを(4.13), (4.14)に代入して連立させると
 
 $$
 0 = \left(
@@ -339,7 +339,7 @@ $$
 \right)E_x
 -\frac{eB_0}{c}\frac{c}{4\pi n_0 e}\left(
     \frac{i\omega}{c}-\frac{ick^2}{\omega}
-\right)E_y \tag{4.16}
+\right)E_y \tag{4.17}
 $$
 
 $$
@@ -352,16 +352,16 @@ $$
         \frac{ck^2}{\omega}-\frac{\omega}{c} 
     \right) +e
 \right)E_y
- \tag{4.17}
+ \tag{4.18}
 $$
 
-となる。(4.16),(4.17)が非自明解を持つためには係数行列が0でなければならないので、その行列式を計算します。すると
+となります。(4.16),(4.17)が非自明解を持つためには係数行列が0でなければならないので、その行列式を計算します。すると
 
 $$
 \left( \frac{c\omega m_e}{4\pi n_0 e} \right)^2
 \left( \frac{ck^2}{\omega}-\frac{\omega}{c}+e\right)^2
 +\left(\frac{eB_0}{4\pi n_0 e}\right)^2
-\left(\frac{i\omega}{c}-\frac{ick^2}{\omega}\right)^2 = 0
+\left(\frac{i\omega}{c}-\frac{ick^2}{\omega}\right)^2 = 0 \tag{4.19}
 $$
 
 となります。丁寧に一つずつ整理していきましょう。係数を中に入れて、符号や$i$を整理し、(3.12)、(3.13)を使って$\omega_{pe}$と$\omega_{ce}$で表すと、
@@ -373,7 +373,7 @@ $$
 \right)^2 
 = \frac{\omega_{ce}^2}{\omega_{pe}^4} \left(
     \omega -\frac{c^2k^2}{\omega}
-\right)^2
+\right)^2 \tag{4.20}
 $$
 
 を得ます。これをXモードのときのように変形することを考えましょう。まず2乗を払って
@@ -382,7 +382,7 @@ $$
 \frac{c^2k^2}{\omega_{pe}^2}-\frac{\omega^2}{\omega_{pe}^2}+1
 = \pm \frac{\omega_{ce}}{\omega_{pe}^2} \left(
     \omega -\frac{c^2k^2}{\omega}
-\right)
+\right) \tag{4.21}
 $$
 
 となります。左辺を整理すると
@@ -393,7 +393,7 @@ $$
 \right)+1
 = \pm \frac{\omega_{ce}}{\omega_{pe}^2} \left(
     \omega -\frac{c^2k^2}{\omega}
-\right)
+\right) \tag{4.22}
 $$
 
 とできるので、移項して
@@ -404,19 +404,19 @@ $$
     \frac{\omega}{\omega_{pe}^2}\pm \frac{\omega_{ce}}{\omega_{pe}^2}
     \right)\left(    
     \omega -\frac{c^2k^2}{\omega}
-\right)
+\right) \tag{4.23}
 $$
 
 となり、最終的に下記の分散関係式
 
 $$
-\frac{c^2k^2}{\omega^2} = 1-\frac{\omega_{ce}^2/\omega^2}{1\pm \omega_{ce}/\omega}
+\frac{c^2k^2}{\omega^2} = 1-\frac{\omega_{ce}^2/\omega^2}{1\pm \omega_{ce}/\omega} \tag{4.24}
 $$
 
 を得ます。
 
-
+この物理的描像を考えてみましょう。電子の電荷$e<0$という意味を込めている場合、サイクロトロン振動数$\omega_{ce}<0$となります。(4.24)式の分母でプラスを取ったモード（Rモード）では、$\omega=|\omega_{ce}|$、つまりサイクロトロン振動と同じ振動数の電磁波で分母が0になるので共鳴が起こります。これは電子のサイクロトロン運動を同じ向きに回る電磁波がアシストすることでエネルギー吸収が起こるというイメージです[^Nicholson]。一方でマイナスを取ったモード（Lモード）では共鳴は起こりません。なぜならば電子のサイクロトロン運動と逆向きに回転するからです。
 
 ## 参考文献
-* 7.11 Electromagnetic waves in magnetized plasmas. Introduction to plasma theory. D. R. Nicholson. Wiley. 1983.
-* 4.15 Electromagnetic Waves Perpendicular to $B_0$. Introduction to Plasma Physics. F. F. Chen. Springer. 1974. https://doi.org/10.1007/978-1-4757-0459-4
+[^nicholson]: 7 Fluid equations. Introduction to plasma theory. D. R. Nicholson. Wiley. 1983.
+<!-- * 4.15 Electromagnetic Waves Perpendicular to $B_0$. Introduction to Plasma Physics. F. F. Chen. Springer. 1974. https://doi.org/10.1007/978-1-4757-0459-4 -->
