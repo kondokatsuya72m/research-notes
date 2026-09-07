@@ -418,5 +418,5 @@ $$
 この物理的描像を考えてみましょう。電子の電荷$e<0$という意味を込めている場合、サイクロトロン振動数$\omega_{ce}<0$となります。(4.24)式の分母でプラスを取ったモード（Rモード）では、$\omega=|\omega_{ce}|$、つまりサイクロトロン振動と同じ振動数の電磁波で分母が0になるので共鳴が起こります。これは電子のサイクロトロン運動を同じ向きに回る電磁波がアシストすることでエネルギー吸収が起こるというイメージです[^Nicholson]。一方でマイナスを取ったモード（Lモード）では共鳴は起こりません。なぜならば電子のサイクロトロン運動と逆向きに回転するからです。
 
 ## 参考文献
-[^nicholson]: 7 Fluid equations. Introduction to plasma theory. D. R. Nicholson. Wiley. 1983.
+[^Nicholson]: 7 Fluid equations. Introduction to plasma theory. D. R. Nicholson. Wiley. 1983.
 <!-- * 4.15 Electromagnetic Waves Perpendicular to $B_0$. Introduction to Plasma Physics. F. F. Chen. Springer. 1974. https://doi.org/10.1007/978-1-4757-0459-4 -->
