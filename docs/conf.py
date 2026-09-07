@@ -28,10 +28,10 @@ myst_enable_extensions = [
     "amsmath"
 ]
 
-mathjax3_config={
-    "tex":{
-        "packages":{
-            "[+]": ["bm"],
+mathjax3_config = {
+    "tex": {
+        "packages": {
+            "[+]": ["bm",],
         }
     }
 }
