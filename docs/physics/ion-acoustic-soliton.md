@@ -4,7 +4,7 @@
 なお英語での引用が必要であれば拙著 [^KondoK_APSOS_2026]にも記載しておりますので参照ください。
 
 ## 導出
-連続の式、イオンの運動方程式、電子の断熱応答の式、Poisson方程式を支配方程式系から導出します [^Watanabe_book] [^Wadachi_book]。支配方程式を書き下すと下記になります。
+連続の式、イオンの運動方程式、電子の断熱応答の式、Poisson方程式を支配方程式系として導出します [^Watanabe_book] [^Wadachi_book]。支配方程式を書き下すと下記になります。
 
 $$
 \frac{\partial n}{\partial t}+\frac{\partial}{\partial x}(nv) = 0 
@@ -54,7 +54,7 @@ $$
 \frac{\partial^2 \tilde{\phi}}{\partial \tilde{x}^2} = \tilde{n}_e-\tilde{n} \tag{4}
 $$
 
-ここで摂動展開を行います。分布関数に$f(x,t)=f_0 + \epsilon f_1 + \epsilon^2 f_2 \cdots$ なる摂動展開を実行すると、各摂動項に対応して
+ここで分布関数に$f(x,t)=f_0 + \epsilon f_1 + \epsilon^2 f_2 \cdots$ なる摂動展開を行います。$f_0$平衡状態でのMaxwell分布を表します。すると各物理量は摂動項に対応して
 
 $$
 \tilde{n} = 1 + \epsilon \tilde{n}_1+ \epsilon^2 \tilde{n}_2 + \cdots
@@ -78,7 +78,7 @@ $$
 \tau = \epsilon^{3/2}\tilde{t} \tag{6}
 $$
 
-次数は分散関係$\omega(k)$の3次の項までを考慮することに対応しています。$x-t$は音速で移動する系へ移ることを意味しています。最初にイオン音波ソリトンでのK-dV方程式を導出したWashimiらは逆に$k(\omega)$を3次まで展開して$\tau$の代わりに$\eta=\epsilon^{3/2}x$と置いています[^Washimi_1966]が、結果として得られる方程式は変わりません。本稿では渡辺[^Watanabe_book]や和達[^Wadachi_book]に従って$\tau$を用いています。
+次数は分散関係$\omega(k)$の3次の項までを考慮することに対応しています。$\tilde{x}-\tilde{t}$は音速で移動する系へ移ることを意味しています。最初にイオン音波ソリトンでのK-dV方程式を導出したWashimiらは逆に$k(\omega)$を3次まで展開して$\tau$の代わりに$\eta=\epsilon^{3/2}x$と置いています[^Washimi_1966]が、結果として得られる方程式は変わりません。本稿では渡辺[^Watanabe_book]や和達[^Wadachi_book]に従って$\tau$を用いています。
 
 これらと微分の連鎖律から微分演算子を計算しておくと、
 
