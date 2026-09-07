@@ -30,8 +30,8 @@ myst_enable_extensions = [
 
 mathjax3_config = {
     "tex": {
-        "packages": {
-            "[+]": ["bm",],
+        "macros": {
+            "bm": ["\\boldsymbol{#1}", 1],
         }
     }
 }

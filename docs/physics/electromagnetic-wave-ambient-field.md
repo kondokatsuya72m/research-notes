@@ -359,6 +359,6 @@ $$
 
 （工事中）
  -->
-# 参考文献
+## 参考文献
 * 7.11 Electromagnetic waves in magnetized plasmas. Introduction to plasma theory. D. R. Nicholson. Wiley. 1983.
 * 4.15 Electromagnetic Waves Perpendicular to $B_0$. Introduction to Plasma Physics. F. F. Chen. Springer. 1974. https://doi.org/10.1007/978-1-4757-0459-4
