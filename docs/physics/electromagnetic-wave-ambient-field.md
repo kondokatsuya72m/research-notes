@@ -240,7 +240,7 @@ $\omega_{ce} = 2.5$と設定しており、$\omega_L= 3.61$, $\omega_R= 1.11$, $
 * それを超えると再びカットオフ領域$\omega_{eH} < \omega < \omega_{R}$に入り、伝搬できない。
 * $\omega_R < \omega$に入ると再び伝播可能となる。
 
-![figure](physics/images/xmode.png)
+![figure](images/xmode.png)
 
 
 <!-- ## (3) $\bm{B}_0 \parallel \bm{k}$ : 背景磁場に沿って伝播する電磁波
