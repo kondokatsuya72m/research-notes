@@ -119,7 +119,7 @@ $$
     \bm{S} \equiv \frac{c}{4\pi}\nabla\cdot(\bm{E}\times\bm{B})
 $$
 
-と定義すると、(1.13)は
+と定義すると[^nakasho]、(1.13)は
 
 $$
   \frac{d}{dt}\left(\sum_i \frac{1}{2}m_i v_i^2+\int  U_{EM}d^3x\right) 
