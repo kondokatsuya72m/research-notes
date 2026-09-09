@@ -1,4 +1,4 @@
-# イオン音波ソリトン
+<!-- # イオン音波ソリトン
 本稿ではプラズマの基礎方程式からK-dV方程式を導出し、それがソリトン解を持つことを示します。プラズマでのK-dV方程式とイオン音波ソリトンはWashimiらによって1966年に理論的に予測され [^Washimi_1966]、その4年後にIkeziらによって実験で観測されました [^Ikezi_1970]。
 
 なお英語での引用が必要であれば拙著 [^KondoK_APSOS_2026]にも記載しておりますので参照ください。
@@ -256,4 +256,4 @@ $$
 [^Watanabe_book]: 渡辺慎介, 「ソリトン物理入門」. 培風館 (1985). <br> <https://ndlsearch.ndl.go.jp/books/R100000002-I000001750721> <br> 和書で丁寧にまとめられているため読みやすい。
 [^Wadachi_book]: 和達三樹, 「非線形波動」. 岩波書店 (2000). <br> <https://ndlsearch.ndl.go.jp/books/R100000002-I000002903820> <br> 手に入りやすいが渡辺よりはやや難しい。
 [^Gardner_Morikawa_1960]: C. S. Gardner and G. K. Morikawa, Courant Inst. Math. Sci. Rept, NYO-9082 (1960). <br> <https://archive.org/details/similarityinas00gard>
- [^KondoK_APSOS_2026]: K. Kondo, R. Matsui, and K. Imadera, APS Open Sci. **1**, 000051 (2026). <br> <https://doi.org/10.1103/qxpb-4w5y>
+ [^KondoK_APSOS_2026]: K. Kondo, R. Matsui, and K. Imadera, APS Open Sci. **1**, 000051 (2026). <br> <https://doi.org/10.1103/qxpb-4w5y> -->
