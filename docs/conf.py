@@ -6,7 +6,7 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = 'notes'
+project = 'Research notes'
 copyright = '2026, Katsuya Kondo'
 author = 'Katsuya Kondo'
 release = '1.0'
