@@ -11,6 +11,7 @@
 ```{toctree}
 :glob:
 :maxdepth: 1
+:caption: プラズマ
 
 Plasma/*
 ```
@@ -23,6 +24,16 @@ Plasma/*
 
 Electromagnetics/*
 ```
+
+### 数学
+
+```{toctree}
+:glob:
+:maxdepth: 1
+
+Math/*
+```
+
 
 ### 機械学習
 
