@@ -6,39 +6,34 @@
 
 ## 目次
 
-### プラズマ物理
-
 ```{toctree}
 :glob:
 :maxdepth: 1
+:caption: プラズマ
 
 Plasma/*
 ```
 
-### 電磁気学
-
 ```{toctree}
 :glob:
 :maxdepth: 1
+:caption: 電磁気学
 
 Electromagnetics/*
 ```
 
-### 数学
-
 ```{toctree}
 :glob:
 :maxdepth: 1
+:caption: 数学
 
 Math/*
 ```
 
-
-### 機械学習
-
 ```{toctree}
 :glob:
 :maxdepth: 1
+:caption: 機械学習
 
 MachineLearning/*
 ```
