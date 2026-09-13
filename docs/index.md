@@ -11,7 +11,6 @@
 ```{toctree}
 :glob:
 :maxdepth: 1
-:caption: プラズマ
 
 Plasma/*
 ```
