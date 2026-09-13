@@ -58,4 +58,4 @@ $$
 また、ニューラルネットワークはネットワーク構造、損失関数、重み更新アルゴリズムに非常に大きな自由度があり、幅広い用途に拡張することができるという特徴があります。例えばデータの中に境界値のように特別なサンプルがある場合、損失関数にそのサンプルとの残差を計算する項を足すことでより境界条件を満たすように重みを学習させることができます。データを支配する偏微分方程式を表す項を付加したネットワークが物理情報ニューラルネットワーク（Physics-informed neural network, PINN）で、それは別ページで詳細に説明します。
 
 ## 参考文献
-[^Cybenko]: G. Cybenko, Approximation by superpositions of a sigmoidal function, Math. Control Signals Systems, 1989. <br> https://doi.org/10.1007/BF02551274
+[^Cybenko]: G. Cybenko, Approximation by superpositions of a sigmoidal function, Math. Control Signals Systems, 1989. <br> [[https://doi.org/10.1007/BF02551274]]
