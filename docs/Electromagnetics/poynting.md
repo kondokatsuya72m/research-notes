@@ -156,6 +156,6 @@ $$
 となります。周期平均すると$E_0B_0/2$となり、電磁波は単位面積あたり$E_0B_0/2$のエネルギーを持った流れであると言えます。 -->
 
 ## 参考文献
-[^nakasho]: 電磁場のエネルギーと運動量, 宇宙物理メモ <br> https://github-nakasho.github.io/astroelec/em_energy_momentum
+[^nakasho]: 電磁場のエネルギーと運動量, 宇宙物理メモ <br> <https://github-nakasho.github.io/astroelec/em_energy_momentum>
 
 [^Sunagawa_2023]: 第2章 Maxwellの方程式の一般的性質, 理論電磁気学, 砂川重信, 紀伊国屋書店. 2023年.
