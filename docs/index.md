@@ -4,10 +4,31 @@
 ## 使用許諾
 記事の内容はCC-BY 4.0ライセンスに準ずることとします。本文の内容は自由に引用いただいて構いませんが、引用する際は必ず出典の明記をお願いします。
 
+## 目次
+
+### プラズマ物理
+
 ```{toctree}
 :glob:
 :maxdepth: 1
-:caption: Physics
 
-physics/*
+Plasma/*
+```
+
+### 電磁気学
+
+```{toctree}
+:glob:
+:maxdepth: 1
+
+Electromagnetics/*
+```
+
+### 機械学習
+
+```{toctree}
+:glob:
+:maxdepth: 1
+
+MachineLearning/*
 ```
