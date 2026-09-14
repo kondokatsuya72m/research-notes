@@ -130,5 +130,6 @@ $$
 上記の理論は非相対論、無衝突、磁化していないという仮定があることに注意しましょう。レーザー電場が大きくなるとレーザー電場による電子の振動は光速と比べて無視できない速度になり、相対論的効果が現れます。また、衝突のあるプラズマや磁場のあるプラズマではスキン効果が上記の理論モデルに合致しないことが知られており、anomalous skin effectとして研究テーマの一つになっています [^Kolobov_1997]。プラズマが磁化していて背景磁場がある場合、電子の運動が背景磁場の影響を受けて物理が大きく変わります。磁化している場合については次稿「[背景磁場のあるプラズマ中の電磁波](./electromagnetic-wave-ambient-field.md)」で説明します。
 
 ## 参考文献
-* [^FFChen]: F. F. Chen. 「4.12 $\bm{B}_0=0$ のときの電磁波」, 「プラズマ物理入門」. 
-* [^Kolobov_1997]: V. I. Kolobov and D. J. Economou. "The anomalous skin effect in gas discharge plasmas". Plasma Sources Sci. Technol. 6. (1997). <br> <https://doi.org/10.1088/0963-0252/6/2/003> <br> ガスプラズマでの異常スキン効果のレビュー論文.
+[^FFChen]: F. F. Chen. 「4.12 $\bm{B}_0=0$ のときの電磁波」, 「プラズマ物理入門」. 
+
+[^Kolobov_1997]: V. I. Kolobov and D. J. Economou. "The anomalous skin effect in gas discharge plasmas". Plasma Sources Sci. Technol. 6. (1997). <br> <https://doi.org/10.1088/0963-0252/6/2/003> <br> ガスプラズマでの異常スキン効果のレビュー論文.
