@@ -25,8 +25,15 @@ Alfven波には伝播方向と背景磁場が垂直なquasi-perpな波（**Compr
 
 とおきます。
 
+<!-- ```{figure} images/xmode.png
+:name: fig-soliton
+:width: 100%
+
+分散関係。赤矢印で示した範囲でのみ電磁波が伝播できる。
+``` -->
+
 <figure>
-<img src="./images/alfven_001.png">
+<img src="images/alfven_001.png">
 <figcaption>図2.1 座標の設定とシアAlfven波のイメージ</figcaption>
 </figure>
 
@@ -175,7 +182,7 @@ $$
 とおきます。
 
 <figure>
-<img src="./images/alfven_002.png">
+<img src="images/alfven_002.png">
 <figcaption>図3.1 座標の設定と圧縮性Alfvén波のイメージ</figcaption>
 </figure>
 
