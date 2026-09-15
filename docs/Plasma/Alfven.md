@@ -136,7 +136,9 @@ $$
 となります。ここで分母に着目して
 
 $$
-    \frac{\omega_{pi}^2}{\Omega_i^2} = \frac{4\pi n_0 e^2}{m}\cdot\frac{c^2m_i^2}{e^2B_0^2} \\
+    \frac{\omega_{pi}^2}{\Omega_i^2} = \frac{4\pi n_0 e^2}{m}\cdot\frac{c^2m_i^2}{e^2B_0^2} 
+$$
+$$
     = \frac{4\pi n_0 m_i c^2}{B_0^2} \tag{2.17}
 $$
 
