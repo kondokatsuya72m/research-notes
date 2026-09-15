@@ -497,7 +497,7 @@ $$
         +\left(\frac{\omega}{\Omega_{i}}\right)^2 k_{\parallel}^4 k_{\perp}^2 
         +\left(\frac{\omega}{\Omega_{i}}\right)^2 k_{\parallel}^4 k_{\perp}^2 \\ 
         -k_{\parallel}^2 k_{\perp}^2 \left(k_{\perp}^2 -\frac{\omega^2}{v_A^2}\right) \\
-
+\\
     = \left(k_{\parallel}^2 -\frac{\omega^2}{v_A^2}\right)^2 
         \left(k_{\perp}^2 -\frac{\omega^2}{v_A^2} \right) -k_{\parallel}^2 k_{\perp}^2 \left(k_{\perp}^2 -\frac{\omega^2}{v_A^2}\right) \\
         - \left(\frac{\omega}{\Omega_{i}}\right)^2 k_{\parallel}^2 k_{\perp}^2 \left(k_{\parallel}^2 -\frac{\omega^2}{v_A^2}\right)
