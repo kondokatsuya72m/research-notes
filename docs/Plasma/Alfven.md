@@ -428,7 +428,7 @@ $$
 
 となります。すべての項を左辺にまとめると、最終的には
 
-```{math}
+$$
 \begin{bmatrix}
     k_{\parallel}^2 -\frac{\omega^2}{v_A^2} & -i(\frac{\omega}{\Omega_{i}})k_{\parallel}^2 & -k_{\parallel}k_{\perp} \\
     i(\frac{\omega}{\Omega_{i}})k_{\parallel}^2 & k_{\parallel}^2 -\frac{\omega^2}{v_A^2} & -i(\frac{\omega}{\Omega_{i}})k_{\parallel}k_{\perp} \\
@@ -438,14 +438,17 @@ $$
         B_x \\
         B_y \\
         B_z
-\end{bmatrix} = \bm{0} \tag{4.14}
-```
-
+\end{bmatrix} = \bm{0} 
+$$
+$$
+\tag{4.14}
+$$
+<br>
 となります。
 
 ここで、今は低周波を考えていることを思い出しましょう。すなわち$\omega/\Omega_i \ll 1$だから、(4.13)の第二項、(4.14)のうちひし形の部分の項は無視できます。すると(4.14)は
 
-```{math}
+$$
 \begin{bmatrix}
     k_{\parallel}^2 -\frac{\omega^2}{v_A^2} & 0 & -k_{\parallel}k_{\perp} \\
     0 & k_{\parallel}^2 -\frac{\omega^2}{v_A^2} & 0 \\
@@ -455,9 +458,13 @@ $$
         B_x \\
         B_y \\
         B_z
-\end{bmatrix} = \bm{0} \tag{4.15}
-```
+\end{bmatrix} = \bm{0} 
+$$
 
+$$
+\tag{4.15}
+$$
+<br>
 となります。
 
 まず、y成分に着目すると、
