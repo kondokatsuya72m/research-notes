@@ -27,7 +27,7 @@ Alfven波には伝播方向と背景磁場が垂直なquasi-perpな波（**Compr
 
 ```{figure} images/alfven_001.png
 :name: fig-alfven_001
-:width: 100%
+:width: 70%
 
 図2.1 座標の設定とシアAlfven波のイメージ
 ```
@@ -180,7 +180,7 @@ $$
 
 ```{figure} images/alfven_002.png
 :name: fig-alfven_002
-:width: 100%
+:width: 70%
 
 図3.1 座標の設定と圧縮性Alfvén波のイメージ
 ```
