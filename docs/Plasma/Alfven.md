@@ -475,7 +475,7 @@ $$
 
 であり、これはシアAlfvén波の分散関係式(2.20)そのものです。
 
-次にx,z成分を考えよう。背景磁場はz方向であることを考えると、$B_x\to B_{\perp}$, $B_{z}\to B_{\parallel}$と置き換えることが妥当と考えられる。それを用いると、磁場の各成分は
+次に$x,z$成分を考えましょう。背景磁場はz方向であることを考えると、$B_x\to B_{\perp}$, $B_{z}\to B_{\parallel}$と置き換えることが妥当と考えられる。それを用いると、磁場の各成分は
 
 $$
     B_{\parallel} = \frac{1}{k_{\parallel}k_{\perp}}\left(k_{\parallel}^2-\frac{\omega^2}{v_A^2}\right) B_{\perp} \tag{4.17}
