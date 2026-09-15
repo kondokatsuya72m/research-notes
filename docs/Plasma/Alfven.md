@@ -25,17 +25,12 @@ Alfven波には伝播方向と背景磁場が垂直なquasi-perpな波（**Compr
 
 とおきます。
 
-<!-- ```{figure} images/xmode.png
-:name: fig-soliton
+```{figure} images/alfven_001.png
+:name: fig-alfven_001
 :width: 100%
 
-分散関係。赤矢印で示した範囲でのみ電磁波が伝播できる。
-``` -->
-
-<figure>
-<img src="images/alfven_001.png">
-<figcaption>図2.1 座標の設定とシアAlfven波のイメージ</figcaption>
-</figure>
+図2.1 座標の設定とシアAlfven波のイメージ
+```
 
 さらに今は$\omega \ll \omega_c$と電子サイクロトロン運動よりも遅い低周波だけを考えます。ここが電磁波の場合との違いです。電子の運動は$\bm{E}_1\times\bm{B}_0$ドリフトのみを考えて $\bm{v}_e = v_{ey} \bm{e}_y$ とおきます。分極ドリフト速度は質量に比例するので、質量の小さい電子の$x$方向の分極ドリフトは無視できます。
 
@@ -181,11 +176,18 @@ $$
 
 とおきます。
 
+```{figure} images/alfven_002.png
+:name: fig-alfven_002
+:width: 100%
+
+図3.1 座標の設定と圧縮性Alfvén波のイメージ
+```
+
+<!-- 
 <figure>
 <img src="images/alfven_002.png">
 <figcaption>図3.1 座標の設定と圧縮性Alfvén波のイメージ</figcaption>
-</figure>
-
+</figure> -->
 
 シアAlfvén波と同様にファラデー則、アンペール則、イオンの運動方程式の方程式系を解いていきます。まずファラデー則から
 
