@@ -6,7 +6,7 @@
 * 長い波：波の波長が水の深さと比べて非常に大きく、上下方向の加速度が無視できるとする。うねりや津波、潮汐はこの近似によって説明できる。
 * 表面波：振幅が十分小さく線形に近似できる。
 
-上記の仮定を必要としない解析解としてゲルストナー（Gerstner）のトロコイド解があります。本記事ではそれを記述します。
+上記の仮定を必要としない解析解として**ゲルストナー（Gerstner）のトロコイド解**があります。本記事ではそれを記述します。
 
 ## 導入
 支配方程式系はラグランジュ形式で記述します。ラグランジュ形式での連続の式と運動方程式は時刻$t=0$での位置を$(a,b)$として下記のようになります。
@@ -64,10 +64,10 @@ $$
 
 $$
 \frac{\partial}{\partial a}\left(\frac{p}{\rho}+gy\right) = -\left(\frac{\partial^2 x}{\partial t^2}\frac{\partial x}{\partial a} + \frac{\partial^2 y}{\partial t^2}\frac{\partial y}{\partial a}\right) \\
-= \displaystyle kc^2\mathrm{kb}\sin[k(a-ct)] \\
+= \displaystyle kc^2\mathrm{e}^{kb}\sin[k(a-ct)] \\
 $$
 $$
-= \frac{\partial}{\partial a}\left(-c^2\mathrm{kb}\cos[k(a-ct)] + \frac{1}{2}c^2\mathrm{2}^{2kb} + C\right) \tag{6}
+= \frac{\partial}{\partial a}\left(-c^2\mathrm{e}^{kb}\cos[k(a-ct)] + \frac{1}{2}c^2\mathrm{2}^{2kb} + C\right) \tag{6}
 $$
 
 $$
@@ -76,13 +76,13 @@ $$
     = -kc^2\mathrm{e}^{kb}\cos[k(a-ct)] -kc^2 \mathrm{e}^{2kb} 
 $$
 $$
-    = \frac{\partial}{\partial b}\left(-c^2\mathrm{kb}\cos[k(a-ct)] + \frac{1}{2}c^2\mathrm{2}^{2kb} + C\right) \tag{7}
+    = \frac{\partial}{\partial b}\left(-c^2\mathrm{kb}\cos[k(a-ct)] + \frac{1}{2}c^2\mathrm{e}^{2kb} + C\right) \tag{7}
 $$
 
 となります。したがって$(6)\times da + (7)\times db$を計算すると、全微分の形になるから積分を実行できて
 
 $$
-\frac{p}{\rho}+gy = -c^2\mathrm{kb}\cos[k(a-ct)] + \frac{1}{2}c^2\mathrm{2}^{2kb} + C
+\frac{p}{\rho}+gy = -c^2\mathrm{e}^{kb}\cos[k(a-ct)] + \frac{1}{2}c^2\mathrm{e}^{2kb} + C
 $$
 
 となります。ここで$C$は積分定数です。これに(5)を使ってyを消去して
@@ -120,9 +120,12 @@ $$
 
 (8)(9)の第2項から流体粒子は半径 $\mathrm{e}^{kb}/k$ で円運動を行います。したがって粒子の $x$ - $p_x$ 位相空間を見ると渦となります。 $b \gt 0$ ではトロコイドはループとなるので、物理的に妥当な解では$b\le 0$です。水深が深い$b\ll 0$の領域では波面は緩やかですが、浅くなるにつれて急峻になります。$b=0$ではサイクロイドとなり頂点が急峻となります。
 
-![](./images/trocoid.png)
+```{figure} images/trocoid.png
+:name: fig-trocoid
+:width: 100%
 
 $b=0$（青線）、$-1$（橙線）、$-2$（緑線）
+```
 
 ## 参考文献
 [^imai_book]: 今井功. 「第6章 水の波」、「流体力学」（物理テキストシリーズ）、岩波書店. 1993.
