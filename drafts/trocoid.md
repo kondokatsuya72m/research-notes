@@ -65,13 +65,17 @@ $$
 $$
 \frac{\partial}{\partial a}\left(\frac{p}{\rho}+gy\right) = -\left(\frac{\partial^2 x}{\partial t^2}\frac{\partial x}{\partial a} + \frac{\partial^2 y}{\partial t^2}\frac{\partial y}{\partial a}\right) \\
 = \displaystyle kc^2\mathrm{kb}\sin[k(a-ct)] \\
+$$
+$$
 = \frac{\partial}{\partial a}\left(-c^2\mathrm{kb}\cos[k(a-ct)] + \frac{1}{2}c^2\mathrm{2}^{2kb} + C\right) \tag{6}
 $$
 
 $$
 \frac{\partial}{\partial b}\left(\frac{p}{\rho}+gy\right) = 
 -\left(\frac{\partial^2 x}{\partial t^2}\frac{\partial x}{\partial b} + \frac{\partial^2 y}{\partial t^2}\frac{\partial y}{\partial b} \right)\\
-    = -kc^2\mathrm{e}^{kb}\cos[k(a-ct)] -kc^2 \mathrm{e}^{2kb} \\
+    = -kc^2\mathrm{e}^{kb}\cos[k(a-ct)] -kc^2 \mathrm{e}^{2kb} 
+$$
+$$
     = \frac{\partial}{\partial b}\left(-c^2\mathrm{kb}\cos[k(a-ct)] + \frac{1}{2}c^2\mathrm{2}^{2kb} + C\right) \tag{7}
 $$
 
@@ -120,5 +124,5 @@ $$
 
 $b=0$（青線）、$-1$（橙線）、$-2$（緑線）
 
-# 参考文献
+## 参考文献
 [^imai_book]: 今井功. 「第6章 水の波」、「流体力学」（物理テキストシリーズ）、岩波書店. 1993.
