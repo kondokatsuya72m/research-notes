@@ -25,6 +25,15 @@ Electromagnetics/*
 ```{toctree}
 :glob:
 :maxdepth: 1
+:caption: 流体力学
+
+Fluids/*
+```
+
+
+```{toctree}
+:glob:
+:maxdepth: 1
 :caption: 数学
 
 Math/*
