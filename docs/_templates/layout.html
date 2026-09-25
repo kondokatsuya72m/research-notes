@@ -1,0 +1,14 @@
+{% extends "!layout.html" %}
+{{ super() }}
+{% block extrahead %}
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-RJH11WJZB7"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-RJH11WJZB7');
+</script>
+{% endblock %}
+

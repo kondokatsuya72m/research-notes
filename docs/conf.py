@@ -42,9 +42,9 @@ language = 'jp'
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
 html_theme = 'alabaster'
-html_static_path = ['_static']
-html_math_renderer="mathjax"
-
 html_theme_options = {
     "footer_items": ["copyright", "sphinx-version", "notifications"],
 }
+html_static_path = ['_static']
+html_math_renderer="mathjax"
+
