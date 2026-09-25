@@ -46,5 +46,5 @@ html_static_path = ['_static']
 html_math_renderer="mathjax"
 
 html_theme_options = {
-    "footer_items": ["copyright", "sphinx-version", "comments"],
+    "footer_items": ["copyright", "sphinx-version", "notifications"],
 }
