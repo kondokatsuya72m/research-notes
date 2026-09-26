@@ -46,6 +46,6 @@ html_static_path = ['_static']
 html_math_renderer="mathjax"
 
 html_theme_options={
-    "description": '当サイトではアクセス数の把握のためにCookie技術およびGoogleアナリティクスを使用しています。このデータは個人を特定するものではありません。',
+    "description": '当サイトではアクセス数の把握のためにCookie技術およびGoogleアナリティクスを使用しています。このデータは個人を特定することを目的としていません。',
 }
 
