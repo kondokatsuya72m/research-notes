@@ -78,7 +78,7 @@ $$
 \tau = \epsilon^{3/2}\tilde{t} \tag{6}
 $$
 
-次数は分散関係$\omega(k)$の3次の項までを考慮することに対応しています。$\tilde{x}-\tilde{t}$は音速で移動する系へ移ることを意味しています。最初にイオン音波ソリトンでのK-dV方程式を導出したWashimiらは逆に$k(\omega)$を3次まで展開して$\tau$の代わりに$\eta=\epsilon^{3/2}x$と置いています [^Washimi_1966]が、結果として得られる方程式は変わりません。本稿では渡辺 [^Watanabe_book]や和達 [^Wadachi_book]に従って$\tau$を用いています。
+次数は分散関係$\omega(k)$の3次の項までを考慮することに対応しています。$\tilde{x}-\tilde{t}$は音速で移動する系へ移ることを意味しています。最初にイオン音波ソリトンでのK-dV方程式を導出したWashimiらは逆に$k(\omega)$を3次まで展開して$\tau$の代わりに$\eta=\epsilon^{3/2}x$と置いています [^Washimi_1966]が、結果として得られる方程式は変わりません。本稿では渡辺 [^Watanabe_book]や和達 [^Wadachi_book]に従って$\tau$を用いています。なおこのような摂動展開のイメージは市川 [^Ichikawa_1988]によく説明されています。
 
 これらと微分の連鎖律から微分演算子を計算しておくと、
 
@@ -225,7 +225,7 @@ $$
     \right) \tag{20}
 $$ -->
 
-となります。ここで$M=U/C_s$はマッハ数です。ここでソリトンの幅を
+となります [^Saeki_2007]。ここで$M=U/C_s$はマッハ数です。ここでソリトンの幅を
 
 $$
 \tilde{D} \equiv \sqrt{\frac{2}{\tilde{U}}} \tag{21}
@@ -256,4 +256,4 @@ $$
 [^Watanabe_book]: 渡辺慎介, 「ソリトン物理入門」. 培風館 (1985). <br> <https://ndlsearch.ndl.go.jp/books/R100000002-I000001750721> <br> 和書で丁寧にまとめられているため読みやすい。
 [^Wadachi_book]: 和達三樹, 「非線形波動」. 岩波書店 (2000). <br> <https://ndlsearch.ndl.go.jp/books/R100000002-I000002903820> <br> 手に入りやすいが渡辺よりはやや難しい。
 [^Gardner_Morikawa_1960]: C. S. Gardner and G. K. Morikawa, Courant Inst. Math. Sci. Rept, NYO-9082 (1960). <br> <https://archive.org/details/similarityinas00gard>
- [^KondoK_APSOS_2026]: K. Kondo, R. Matsui, and K. Imadera, APS Open Sci. **1**, 000051 (2026). <br> <https://doi.org/10.1103/qxpb-4w5y>
+[^KondoK_APSOS_2026]: K. Kondo, R. Matsui, and K. Imadera, APS Open Sci. **1**, 000051 (2026). <br> <https://doi.org/10.1103/qxpb-4w5y>
