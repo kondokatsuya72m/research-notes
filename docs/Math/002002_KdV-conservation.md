@@ -223,7 +223,7 @@ $$
 
 となる。このように代入を繰り返すことで$\epsilon$の無限級数に展開することができる。これが任意の$\epsilon$で成り立つので、保存則は無限に存在する。 -->
 
-# 参考文献
+## 参考文献
 [^watanabe_book]: 渡辺慎介、「3-5 K-dV方程式の保存量」.「ソリトン物理入門」. 培風館.
 [^Nutku_1984]: Y. Nutku. Hamiltonian formulation of the KdV equation.  J. Math. Phys. 1984.<br> <https://doi.org/10.1063/1.526395>
 [^Miura_1968]: R. M. Miura et. al. Korteweg‐de Vries Equation and Generalizations. II. Existence of Conservation Laws and Constants of Motion. J. Math. Phys. 1968. <br> <https://doi.org/10.1063/1.1664701>
