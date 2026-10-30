@@ -225,6 +225,6 @@ $$
 
 # 参考文献
 [^watanabe_book]: 渡辺慎介、「3-5 K-dV方程式の保存量」.「ソリトン物理入門」. 培風館.
-[^Nutku_1984]: Y. Nutku. Hamiltonian formulation of the KdV equation.  J. Math. Phys. 1984.<br> https://doi.org/10.1063/1.526395
-[^Miura_1968]: R. M. Miura et. al. Korteweg‐de Vries Equation and Generalizations. II. Existence of Conservation Laws and Constants of Motion. J. Math. Phys. 1968. <br> https://doi.org/10.1063/1.1664701
-[^Oikawa_2013]: 及川正行. 第5章 逆散乱法. 〔連載〕非線形波動 ― ソリトンを中心として ―.  日本流体力学学会誌（ながれ）. 2013. <br> https://www.nagare.or.jp/publication/nagare/archive/2013/1.html
+[^Nutku_1984]: Y. Nutku. Hamiltonian formulation of the KdV equation.  J. Math. Phys. 1984.<br> [https://doi.org/10.1063/1.526395]
+[^Miura_1968]: R. M. Miura et. al. Korteweg‐de Vries Equation and Generalizations. II. Existence of Conservation Laws and Constants of Motion. J. Math. Phys. 1968. <br> [https://doi.org/10.1063/1.1664701]
+[^Oikawa_2013]: 及川正行. 第5章 逆散乱法. 〔連載〕非線形波動 ― ソリトンを中心として ―.  日本流体力学学会誌（ながれ）. 2013. <br> [https://www.nagare.or.jp/publication/nagare/archive/2013/1.html]
